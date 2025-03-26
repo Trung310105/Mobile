@@ -32,6 +32,8 @@ class Home extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
         title: title(key: Listkey),
         centerTitle: true,
         actions: [action()],
